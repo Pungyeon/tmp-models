@@ -11,3 +11,8 @@ type IEstimate interface {
 	GetPercent() int
 	GetNormScore() float64
 }
+
+type ILanguage interface {
+	String() string
+	Code() string
+}
